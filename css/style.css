@@ -48,6 +48,7 @@ section {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 130px;
+    margin-bottom: 150px;
 }
 
 main > section > div {
@@ -229,7 +230,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    height: 150px;
+    height: 100px;
     width: 100%;
     bottom: 0px;
 }
@@ -238,7 +239,7 @@ footer > div > a {
     color: white;
     text-decoration: none;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 15px;
     margin: 0 10px;
     padding-left: 10px;
 }
@@ -246,14 +247,14 @@ footer > div > a {
 footer > div > h2 {
     color: white;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
     margin-left: 20px;
 }
 
 footer > div > h3 {
     color: white;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
     margin-right: 45px;
     margin-bottom: 10px;
 }
