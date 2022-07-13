@@ -1,3 +1,92 @@
+/* PAGE SETTINGS */
+
 * {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER SECTION */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ff6900;
+    box-shadow: 0px 2px 8px 1px #0000007a;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+
+header > div > a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.logo {
+    width: 150px;
+}
+
+nav > svg {
+    width:1.5rem;
+    padding-right: 10px;
+}
+
+/* MAIN SECTION */
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 130px;
+}
+
+main > section > div {
+    width: 500px;
+    height: 600px;
+    margin: 20px;
+}
+
+.box1 {
+    background-image: url(/img/1.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.box2 {
+    background-image: url(/img/2.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.box3 {
+    background-image: url(/img/3.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.box4 {
+    background-image: url(/img/4.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.box5 {
+    background-image: url(/img/5.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.box6 {
+    background-image: url(/img/6.webp);
+    background-position: center;
+    background-size: cover;
 }
