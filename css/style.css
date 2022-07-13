@@ -13,9 +13,10 @@ header {
     align-items: center;
     background-color: #ff6900;
     box-shadow: 0px 2px 8px 1px #0000007a;
-    height: 100px;
+    height: 80px;
     width: 100%;
     position: fixed;
+    z-index: 999;
 }
 
 header > div > a {
@@ -40,7 +41,6 @@ nav > svg {
 
 main {
     display: flex;
-    justify-content: center;
 }
 
 section {
@@ -51,44 +51,67 @@ section {
 }
 
 main > section > div {
-    width: 500px;
-    height: 600px;
-    margin: 20px;
+    width: 460px;
+    height: 630px;
+    margin: 25px;
 }
 
 /* SHOWCASE CARDS */
 
 .boxes {
     background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
-    padding-top: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    position: relative;
 }
 
 .box1 {
     background-image: url(/img/1.webp);
 }
 
+.box1:hover {
+    background-image: url(/img/1b.webp);
+}
+
 .box2 {
     background-image: url(/img/2.webp);
+}
+
+.box2:hover {
+    background-image: url(/img/2b.webp);
 }
 
 .box3 {
     background-image: url(/img/3.webp);
 }
 
+.box3:hover {
+    background-image: url(/img/3b.webp);
+}
+
 .box4 {
     background-image: url(/img/4.webp);
+}
+
+.box4:hover {
+    background-image: url(/img/4b.webp);
 }
 
 .box5 {
     background-image: url(/img/5.webp);
 }
 
+.box5:hover {
+    background-image: url(/img/5b.webp);
+}
+
 .box6 {
     background-image: url(/img/6.webp);
+}
+
+.box6:hover {
+    background-image: url(/img/6b.webp);
 }
 
 /* SHOWCASE CARDS LABELS */
@@ -99,22 +122,38 @@ main > section > div {
     height: 50px;
     background-color: white;
     justify-content: center;
+    position: absolute;
+    top: 2%;
+    left: 87%;
 }
 
-.heart > svg {
+.heartsvg {
     width:1.5rem;
+    fill="black"
+}
+
+.heartsvg:hover {
+    fill: red;
 }
 
 .singlelabel {
-    position: relative;
-    top: 520px;
-    right: 390px;
+    position: absolute;
+    top: 85%;
+    right: 84.3%;
 }
 
+.singlelabel2 {
+    position: absolute;
+    top: 85%;
+    right: 71.3%;
+}
+
+
 .doublelabel {
-    position: relative;
-    top: 520px;
-    right: 266px;
+    position: absolute;
+    top: 85%;
+    right: 57.2%;
+    display: inline-block;
 }
 
 .discount {
@@ -138,3 +177,88 @@ main > section > div {
     text-align: center;
     padding-top: 7px;
 }
+
+.descbox {
+    position: absolute;
+    height: fit-content;
+    width: 500px;
+}
+
+.desxbox > p {
+    color: gray;
+}
+
+.descbox > span {
+    color: red;
+}
+
+.description1 {
+    top: 83%;
+    right: 60.7%;
+}
+
+.description2 {
+    top: 83%;
+    right: 33.9%;
+}
+
+.description3 {
+    top: 83%;
+    right: 7%;
+}
+
+.description4 {
+    top: 164%;
+    right: 60.7%;
+}
+
+.description5 {
+    top: 164%;
+    right: 33.9%;
+}
+
+.description6 {
+    top: 164%;
+    right: 7%;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 150px;
+    width: 100%;
+    bottom: 0px;
+}
+
+footer > div > a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0 10px;
+    padding-left: 10px;
+}
+
+footer > div > h2 {
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+footer > div > h3 {
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    margin-right: 45px;
+    margin-bottom: 10px;
+}
+
+footer > div > svg {
+    width: 1.5rem;
+    padding-right: 10px;
+}.
