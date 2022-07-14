@@ -130,7 +130,7 @@ main > section > div {
 
 .heartsvg {
     width:1.5rem;
-    fill="black"
+    fill:"black"
 }
 
 .heartsvg:hover {
@@ -262,4 +262,4 @@ footer > div > h3 {
 footer > div > svg {
     width: 1.5rem;
     padding-right: 10px;
-}.
+}
