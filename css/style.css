@@ -68,51 +68,51 @@ main > section > div {
 }
 
 .box1 {
-    background-image: url(/img/1.webp);
+    background-image: url(../img/1.webp);
 }
 
 .box1:hover {
-    background-image: url(/img/1b.webp);
+    background-image: url(../img/1b.webp);
 }
 
 .box2 {
-    background-image: url(/img/2.webp);
+    background-image: url(../img/2.webp);
 }
 
 .box2:hover {
-    background-image: url(/img/2b.webp);
+    background-image: url(../img/2b.webp);
 }
 
 .box3 {
-    background-image: url(/img/3.webp);
+    background-image: url(../img/3.webp);
 }
 
 .box3:hover {
-    background-image: url(/img/3b.webp);
+    background-image: url(../img/3b.webp);
 }
 
 .box4 {
-    background-image: url(/img/4.webp);
+    background-image: url(../img/4.webp);
 }
 
 .box4:hover {
-    background-image: url(/img/4b.webp);
+    background-image: url(../img/4b.webp);
 }
 
 .box5 {
-    background-image: url(/img/5.webp);
+    background-image: url(../img/5.webp);
 }
 
 .box5:hover {
-    background-image: url(/img/5b.webp);
+    background-image: url(../img/5b.webp);
 }
 
 .box6 {
-    background-image: url(/img/6.webp);
+    background-image: url(../img/6.webp);
 }
 
 .box6:hover {
-    background-image: url(/img/6b.webp);
+    background-image: url(../img/6b.webp);
 }
 
 /* SHOWCASE CARDS LABELS */
